@@ -1,0 +1,82 @@
+package com.nicejob.nicejobs.model;
+
+import lombok.Getter;
+
+@Getter
+public enum Career {
+    Value1("Tất cả ngành nghề"),
+    Value2("An toàn lao động"),
+    Value3("Bán hàng kỹ thuật"),
+    Value4("Bán lẻ / bán sỉ"),
+    Value5("Báo chí / Truyền hình"),
+    Value6("Bảo hiểm"),
+    Value7("Bảo trì / Sửa chữa"),
+    Value8("Bất động sản"),
+    Value9("Biên / Phiên dịch"),
+    Value10("Bưu chính - Viễn thông"),
+    Value11("Chứng khoán / Vàng / Ngoại tệ"),
+    Value12("Cơ khí / Chế tạo / Tự động hóa"),
+    Value13("Công nghệ cao"),
+    Value14("Công nghệ Ô tô"),
+    Value15("Công nghệ thông tin"),
+    Value16("Dầu khí/Hóa chất"),
+    Value17("Dệt may / Da giày"),
+    Value18("Địa chất / Khoáng sản"),
+    Value19("Dịch vụ khách hàng"),
+    Value20("Điện / Điện tử / Điện lạnh"),
+    Value21("Điện tử viễn thông"),
+    Value22("Du lịch"),
+    Value23("Dược phẩm / Công nghệ sinh học"),
+    Value24("Giáo dục / Đào tạo"),
+    Value25("Hàng cao cấp"),
+    Value26("Hàng gia dụng"),
+    Value27("Hàng hải"),
+    Value28("Hàng không"),
+    Value29("Hàng tiêu dùng"),
+    Value30("Hành chính / Văn phòng"),
+    Value31("Hoá học / Sinh học"),
+    Value32("Hoạch định/Dự án"),
+    Value33("In ấn / Xuất bản"),
+    Value34("IT Phần cứng / Mạng"),
+    Value35("IT phần mềm"),
+    Value36("Kế toán / Kiểm toán"),
+    Value37("Khách sạn / Nhà hàng"),
+    Value38("Kiến trúc"),
+    Value39("Kinh doanh / Bán hàng"),
+    Value40("Logistics"),
+    Value41("Luật/Pháp lý"),
+    Value42("Marketing / Truyền thông / Quảng cáo"),
+    Value43("Môi trường / Xử lý chất thải"),
+    Value44("Mỹ phẩm / Trang sức"),
+    Value45("Mỹ thuật / Nghệ thuật / Điện ảnh"),
+    Value46("Ngân hàng / Tài chính"),
+    Value47("Ngành nghề khác"),
+    Value48("NGO / Phi chính phủ / Phi lợi nhuận"),
+    Value49("Nhân sự"),
+    Value50("Nông / Lâm / Ngư nghiệp"),
+    Value51("Phi chính phủ / Phi lợi nhuận"),
+    Value52("Quản lý chất lượng (QA/QC)"),
+    Value53("Quản lý điều hành"),
+    Value54("Sản phẩm công nghiệp"),
+    Value55("Sản xuất"),
+    Value56("Spa / Làm đẹp"),
+    Value57("Tài chính / Đầu tư"),
+    Value58("Thiết kế đồ họa"),
+    Value59("Thiết kế nội thất"),
+    Value60("Thời trang"),
+    Value61("Thư ký / Trợ lý"),
+    Value62("Thực phẩm / Đồ uống"),
+    Value63("Tổ chức sự kiện / Quà tặng"),
+    Value64("Tư vấn"),
+    Value65("Vận tải / Kho vận"),
+    Value66("Xây dựng"),
+    Value67("Xuất nhập khẩu"),
+    Value68("Y tế / Dược");
+
+    private final String value;
+
+    Career(String value) {
+        this.value = value;
+    }
+
+}
