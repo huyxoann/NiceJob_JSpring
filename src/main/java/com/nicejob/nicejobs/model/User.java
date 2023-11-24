@@ -1,5 +1,14 @@
 package com.nicejob.nicejobs.model;
 
-public class User {
+import java.sql.Timestamp;
+import java.util.Date;
 
+public class User {
+    private String id;
+    private String username;
+    private String password;
+    private String loginToken;
+    private UserDetail userDetail;
+    private UserBio userBio;
+    private Timestamp createdAt;
 }

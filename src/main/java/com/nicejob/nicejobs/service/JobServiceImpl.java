@@ -15,8 +15,8 @@ public class JobServiceImpl implements JobService {
     private static final ArrayList<Job> jobs = new ArrayList<Job>();
 
     static{
-        jobs.add(new Job("1", "IT Job", new JobDescription(), new JobGeneralInfo(), "Company IT", new ArrayList<Career>(), JobStatus.Value1, new Timestamp(1)));
-        jobs.add(new Job("2", "BA Job", new JobDescription(), new JobGeneralInfo(), "Company IT", new ArrayList<Career>(), JobStatus.Value1, new Timestamp(1)));
+        jobs.add(new Job("1", "IT Job", new JobDescription(), new JobGeneralInfo(), "Company IT", new ArrayList<>(), JobStatus.Value1, new Timestamp(1)));
+        jobs.add(new Job("2", "BA Job", new JobDescription(), new JobGeneralInfo(), "Company IT", new ArrayList<>(), JobStatus.Value1, new Timestamp(1)));
     }
 
     @Override

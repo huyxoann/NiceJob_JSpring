@@ -16,7 +16,7 @@ function NavbarCustom() {
     return (
         <Container>
             <Navbar expand="lg"
-                    className="bg-body-tertiary d-flex container-fluid shadow-sm rounded header-content mb-1 align-items-center justify-content-center">
+                    className="bg-body-light d-flex container-fluid shadow-sm rounded header-content mb-1 align-items-center justify-content-center">
                 <Navbar.Brand href="/">
                     <Image src={logo}></Image>
                 </Navbar.Brand>
@@ -34,7 +34,6 @@ function NavbarCustom() {
                         </Button>
                     ))}
                 </Navbar.Collapse>
-
             </Navbar>
         </Container>
     )

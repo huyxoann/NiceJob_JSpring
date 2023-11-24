@@ -20,7 +20,6 @@ public class Company {
     private CompanyStatus companyStatus;
     private String logoImage;
     private String coverImage;
-    private CompanyField companyFields;
     private String email;
     private String website;
 }
