@@ -14,7 +14,6 @@ import java.sql.Timestamp;
 @AllArgsConstructor
 @Component
 public class JobGeneralInfo {
-    private String id;
     private Level level;
     private Experience experience;
     private Integer numOfRecruits;

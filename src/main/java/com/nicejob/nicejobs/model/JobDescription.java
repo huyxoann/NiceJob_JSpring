@@ -15,7 +15,6 @@ import java.util.List;
 @AllArgsConstructor
 @Component
 public class JobDescription {
-    private String id;
     private List<String> jobDescriptions;
     private List<String> employeeRequirements;
     private List<String> benefits;

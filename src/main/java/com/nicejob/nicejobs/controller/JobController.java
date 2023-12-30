@@ -15,7 +15,7 @@ import java.util.List;
 public class JobController {
     @Autowired
     private JobService jobService;
-    @GetMapping(path = "/")
+    @GetMapping(path = "")
     public ResponseEntity<?> getListJob(){
         List<JobDTO> jobs = jobService.getListJob();
 

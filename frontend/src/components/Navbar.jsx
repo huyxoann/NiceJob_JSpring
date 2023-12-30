@@ -5,16 +5,16 @@ import {Button, Container, Image, Nav} from "react-bootstrap";
 
 function NavbarCustom() {
     const links = [
-        {href: '#about', text: 'About Us'},
-        {href: '#jobs', text: 'Jobs'},
-        {href: '#company', text: 'Company'},
+        {href: 'about', text: 'About Us'},
+        {href: 'jobs', text: 'Jobs'},
+        {href: 'company', text: 'Company'},
     ]
     const button_links = [
         {href: '#', text: 'Đăng nhập', className: 'btn btn-primary p-2 me-2'},
         {href: '#', text: 'Đăng ký', className: 'btn btn-secondary p-2'}
     ]
     return (
-        <Container>
+        <Container fluid>
             <Navbar expand="lg"
                     className="bg-body-light d-flex container-fluid shadow-sm rounded header-content mb-1 align-items-center justify-content-center">
                 <Navbar.Brand href="/">

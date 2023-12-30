@@ -1,0 +1,10 @@
+#jobs-content{
+    background-image: url("../assets/images/bg_job_content.png");
+    background-repeat: no-repeat;
+}
+.img_block img{
+    width: 75%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+
+}
